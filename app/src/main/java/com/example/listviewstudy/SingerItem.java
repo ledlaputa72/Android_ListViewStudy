@@ -1,17 +1,19 @@
 package com.example.listviewstudy;
 
 public class SingerItem {
-
+    //3. 걸그룹에 들어갈 정보
     String name;
     String mobile;
     int resId;
 
+    //4. 생성자 생성
     public SingerItem(String name, String mobile, int resId) {
         this.name = name;
         this.mobile = mobile;
         this.resId = resId;
     }
 
+    //5.getter setter 생성
     public String getName() {
 
         return name;
@@ -42,6 +44,7 @@ public class SingerItem {
         this.resId = resId;
     }
 
+    //6.toString Override
     @Override
     public String toString() {
         return "SingerItem{" +

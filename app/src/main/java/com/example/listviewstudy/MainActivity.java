@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         editText = (EditText) findViewById(R.id.editText);
         editText2 = (EditText) findViewById(R.id.editText2);
 
-        ListView listView = (ListView) findViewById(R.id.listView1);
+        ListView listView = (ListView) findViewById(R.id.listView1); //1
 
         adapter = new SingerAdapter();
         adapter.addItem(new SingerItem("소녀시대", "010-222-3333", R.drawable.icon01));
@@ -62,8 +62,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //2. 데이터를 넣고 뺴는 하는 클래스
     class SingerAdapter extends BaseAdapter {
-        ArrayList<SingerItem> items = new ArrayList<SingerItem>();
+        ArrayList<SingerItem> items = new ArrayList<SingerItem>(); //여러 정보를 위한 객체 정의 (SingerItem.java)
 
         @Override
         public int getCount() {
