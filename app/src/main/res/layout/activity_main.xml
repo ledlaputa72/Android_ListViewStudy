@@ -17,6 +17,7 @@
             android:layout_weight="1"
             android:text="추가" />
 
+        <!--24. 걸그룹 이름과 전화번호를 받기 위한 텍스트 입력 추가 -->
         <EditText
             android:id="@+id/editText"
             android:layout_width="wrap_content"
@@ -34,7 +35,7 @@
             android:text="010-222-4444" />
 
     </LinearLayout>
-
+    <!--0.실제 항목을 출력한 리스트뷰 -->
     <ListView
         android:id="@+id/listView1"
         android:layout_width="match_parent"

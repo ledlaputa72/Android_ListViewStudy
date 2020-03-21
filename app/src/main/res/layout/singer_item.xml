@@ -4,6 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal">
 
+    <!--8.아이콘과 이름 전화번호 추가(ID필요) 레이아웃-->
     <ImageView
         android:id="@+id/imageIcon"
         android:layout_width="80dp"

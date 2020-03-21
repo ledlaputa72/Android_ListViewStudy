@@ -4,13 +4,13 @@ public class SingerItem {
     //3. 걸그룹에 들어갈 정보
     String name;
     String mobile;
-    int resId;
+    int resId; // 이미지 아이콘용
 
     //4. 생성자 생성
     public SingerItem(String name, String mobile, int resId) {
         this.name = name;
         this.mobile = mobile;
-        this.resId = resId;
+        this.resId = resId; //이미지 아이콘용
     }
 
     //5.getter setter 생성
@@ -34,6 +34,7 @@ public class SingerItem {
         this.mobile = mobile;
     }
 
+    //22. 이미지 위한 getter setter 생성
     public int getResId() {
 
         return resId;
